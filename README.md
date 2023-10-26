@@ -82,66 +82,157 @@ After this, you can ask for things like:
 
 
 
-# MidJourney
+## MidJourney
 
-## MidJourney V5 Prompt Training Guide
+First start with this prompt:
 
-### Overview
-This guide provides step-by-step training on how to understand and effectively use MidJourney's V5 update for generating images through text prompts. 
+```text
+I'm going to train this chat to create detailed image prompts for an AI art generator called
+MidJourney. Before we begin, I need to give you context about MidJourney. I'm first going
+to explain what MidJourney is, then we'll break down the prompts.
+Midjourney is an artificial intelligence program and service created and hosted by a San
+Francisco-based independent research lab Midjourney, Inc. Midjourney generates images
+from natural language descriptions, called "prompts", similar to OpenAI's DALL-E and
+Stable Diffusion.
+Midjourney is currently only accessible through a Discord bot on their official Discord
+server, by direct messaging the bot, or by inviting the bot to a third party server. To
+generate images, users use the /imagine command and type in a prompt; the bot then
+returns a set of four images.
+Midjourney is one of the most popular text-to-image AI services online. Users can use a
+chat application, Discord, to communicate with the bot to create images. It uses simple
+commands and requires no coding experience to create aesthetically pleasing images. Its
+founder, David Holz, described Midjourney: “We just want it to be easy to use and we want
+the pictures to look good.”
+According to the company’s website, Midjourney is: “An independent research lab.
+Exploring new mediums of thought. Expanding the imaginative powers of the human
+species.” Similar to other AI models, it uses a vast amount of images to train on with the
+power of machine learning. When provided with text input, its bots find pictures matching
+the description and combine them artistically to create a unique image.
+I need to give you info about the latest v5 Update.
+What's new with the V5 base model?
+- Much wider stylistic range and more responsive to prompting
+- Much higher image quality (2x resolution increase) improved dynamic range
+- More detailed images. Details more likely to be correct. Less unwanted text.
+- Improved performance with image prompting
+- Supports --tile argument for seamless tiling (experimental)
+- Supports --ar aspect ratios greater than 2:1 (experimental)
+- Supports --iw for weighing image prompts versus text prompts
+Style and prompting for V5
+- It’s MUCH more ‘unopinionated’ than v3 and v4, and is tuned to provide a wide diversity
+of outputs and to be very responsive to your inputs.
+- The tradeoff here is that it may be harder to use. Short prompts may not work as well.
+You should try to write longer, more explicit text about what you want (ie: “cinematic photo
+with dramatic lighting”)
+- This model can generate much more realistic imagery than anything we've released
+before.
+V5 is our second model trained on our AI supercluster and has been in the works for 5
+months. It uses significantly different neural architectures and new aesthetic techniques.
+V5 isn't the final step, but we hope you all feel the progression of something deep and
+unfathomable in the power of our collective human imagination.
+Store this to reference to better understand what MidJourney is. Next I will explain the
+prompt structure. Ready?
+```
 
----
+Continue with this: 
 
-### Table of Contents
-1. Introduction and Context on MidJourney
-2. Updated Prompt Structure
-3. Examples of More Advanced Prompts
-4. Prompt Categories Table
-5. Usage
-6. Training Steps from User
+```text
+Here is an example MidJourney prompt:
+high texture quality photo of biomechanical astronaut lying in a meadow of Blue Anemone flowers,
+golden hour, Leica 50mm, f1. 4, night, in the style of photorealistic surrealism, dark pink, alan bean, nicolas bruno, flowerpunk,
+stockphoto, solarizing master --ar 16:9"
+The link at the start is an image reference used to help guide composition, colors, design, etc. based on an image similar to what
+we want to create.
+Next is a more plainword description of exactly what we want to see.
+Next, we have a bunch of super specific descriptive bits, including specific cameras, location, camera angle, time of day, lenses,
+lighting, styles, artistic influences, color schemes, aesthetic themes, use cases for the image, and so on.
+Lastly the "--ar 16:9" is a parameter for aspect ratios. I won't always want a 16:9 image, but the format will be the same. So a
+portrait photo would be in "--ar 2:3" or "--ar 3:2" for example.
+Style, aesthetic, descriptive terms can all be pulled from anything you're already aware of or that I give you as examples, as long
+as they relate to the image I tell you we're trying to make and help build that image based on what we're describing.
+Examples for descriptive details include (but are not limited to):
+● Wide angle photo
+● close up photo
+● macro photograph
+● golden hour
+● night time
+● neon lights
+● cinematic lighting
+● epic scene
+● center frame
+● plain color background
+● die cut sticker
+● cute
 
----
+Examples of other aesthetic themes we might want to include are (but not limited to):
+cyberpunk, glitchpunk, cybercore, hikecore, forestcore, warmcore, forestpunk, stockphoto, for anime, for magazine cover, for
+album art, photorealistic, ray tracing, unreal engine 5, octane render, pixar style, uhd image, 4k, 8k, 16k, 32k, highly detailed
+When I ask for a prompt, I will provide some example prompts to use as primers to help give you an idea of what relevant
+terms to come up with, but you should not be copying the prompts verbatim. The goal is to deliver prompts more
+detailed/achieving better results than my primer examples. Understood?
+```
 
-### Part 1: Introduction and Context on MidJourney
-MidJourney is an AI service based in San Francisco that converts text prompts into images. The V5 update improves image quality and introduces new features like seamless tiling and varied aspect ratios.
+Then take this prompt: 
 
----
+```text
+Okay, for our first prompt, I want to create an image of an astronaut with its back facing
+the "camera" (aka our view) as they look upon the fabric of space and time tearing in front
+of them.
+I have a reference image I will be using here, which shows the back view of an astronaut,
+with a bright glowing colorful space visual flowing out from around him. He is facing bright
+glowing light, obscuring its view from us.
+Here is a sample prompt:
+"An illustration of an astronaut's full body, floating in the vastness of the universe, full of
+stars, makoto shinkai, trending on artsation, detailed depiction of nature, psychedelic
+palette, light amber and turquoise"
+Here are four more sample prompts:
+"the image depicts an astronaut standing in space, in the style of intricate underwater
+worlds, hard edge painter, imax, calming effect, i can't believe how beautiful this is,
+adventure themed, solarizing master --ar 51:91"
+"an astronaut in space walking across a planet with open space, in the style of intricate
+underwater worlds, cyril rolando, uhd image, guillem h. pongiluppi, thiago valdi, realistic
+attention to detail, high-angle --ar 51:91"
+"space wallpaper hd art sci, digital art, wall decal, abstract art, in the style of quiet
+contemplation, 32k uhd, detailed character illustrations, atmosphere landscapes --ar
+51:91"
+"an astronaut looks over an earth, in the style of cyril rolando, dark themes,
+32k uhd, intricate underwater worlds, jakub schikaneder, thiago valdi, detailed
+background elements --ar 51:91"
+I want this to be in the aspect ratio of 13:19 to print as a beautiful high-quality
+poster on my Canon Pixma IP8720.
+Please generate me a specific, detailed prompt for Midjourney to achieve
+my desired image
+```
 
-### Part 2: Updated Prompt Structure
-The V5 update allows for more nuanced and descriptive prompts, including style, camera settings, and artistic influences. Parameters like `--ar` can be added for specific aspect ratios.
+Finish with this prompt:
 
----
+```
+Please make a table breaking down the composition of our intended image into
+categories.
+Example categories are:
+● Composition
+● Camera angle
+● style
+● subject/focal point
+● what subject is doing
+● What subject is wearing/looks like (where relevant)
+● Textures
+● Detail
+● Color Palette
+● Mood
+● Time of Day/Lighting
+● Location
+● Addition styles/weird aesthetics
+Make this table have 10 rows. Each of the above categories should be individual columns.
+First generate this table as a generic table with no specifics and store it for reference for
+later. Store as "Prompt category labels table" whenever I ask for that.
+```
 
-### Part 3: Examples of More Advanced Prompts
-Examples include:
-- "A serene landscape at twilight, infused with the mystique of Salvador Dalí --ar 16:9"
-- "A bustling cyberpunk cityscape under a neon-lit sky --ar 4:3"
-
----
-
-### Part 4: Prompt Categories Table
-A table with categories can guide prompt construction. Categories include Composition, Camera Angle, Style, Subject/Focal Point, etc.
-
----
-
-### Part 5: Usage
-After choosing a row from the table, a specific MidJourney prompt will be crafted based on the categories, along with the desired aspect ratio.
-
----
-
-### Part 6: Training Steps from User
-1. **Act as a Photographer**: Understand the subject and context for which you're crafting the prompt. For example, consider elements like lighting, angles, and focus while conceptualizing the image.
-   
-2. **Table Categories**: Create a table breaking down the composition into specific categories such as Composition, Camera angle, Style, etc., to have a structured approach for creating prompts.
-
-3. **Brief Prompts**: Keep the prompts concise yet descriptive enough to convey the intended message or image.
-
-4. **User Choices**: Generate multiple rows based on the table categories and allow the user to pick one. The chosen row will act as the foundation for creating a specific, nuanced prompt.
-
-5. **Specialize for Different Subjects**: If the subject of the prompt is specialized, like food photography, adjust the table categories to reflect that. For example, include columns like "camera equipment" and "lens."
-
----
-
-## Feel free to modify or distribute this boilerplate as needed!
+Now you can give prompts like 
+```
+Now, ACT as a [profession] and use rich,
+descriptive language to build an awesome MidJourney prompt based on what you have
+learned so far and on this [selected row], with [aspect ratio]
+```
 
 
 

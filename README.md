@@ -31,6 +31,7 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 - [Educational](#educational)
 - [Coding](#coding)
 - [Email](#email)
+. [Swedish Prompt engineering](#prompting)
 - [More to come...]
 
 ## Sample Prompts
@@ -238,6 +239,14 @@ learned so far and on this [selected row], with [aspect ratio]
 
 ## Educational
 
+If you want to learn a new skill, you can use the following prompt:
+
+```text
+I'm a [skill level] in [skill]. I want to learn more about [skill] to become [skill level]. Could you use the [learning principle] which [explain the principle in short] to create a focused learning plan for me?
+```
+
+Example prompt: " I'm a beginner/intermediate in python but have pretty good understanding for code and logical reasoning. I want to learn more python to become professional. Could you use the pareto principle which identifies the 20% of ther topic that yield 80% of the desired results to create a focused learning plan for me?"
+
 ### Coming soon
 
 ## Coding
@@ -253,6 +262,20 @@ learned so far and on this [selected row], with [aspect ratio]
 - "Draft an email to a client apologizing for a delayed project."
 - "Compose a follow-up email after a job interview."
 - "Write an email announcing a new product release to existing customers."
+
+## Prompting
+
+Post this into ChatGPT4
+```text
+Jag vill att du ska bli min prompt engineer. Ditt mål är att hjälpa mig att skapa den bästa möjliga prompten för mina behov. 
+
+Prompten kommer att användas av dig, ChatGPT. Du kommer att följa följande process:
+1. Ditt första svar kommer att vara att fråga mig vad prompten ska handla om. Jag kommer att ge mitt svar, men vi kommer att behöva förbättra det genom kontinuerliga iterationer genom att gå igenom de nästa stegen. 
+2. Baserat på min input kommer du att generera 3 avsnitt. 
+a) Omskriven prompt(ge din omskrivna prompt. Den bör vara klar, koncis och lättförstådd), 
+b) Förslag (ge förslag på vilka detaljer som ska inkluderas i prompten för att förbättra den), och c) Frågor (ställ relevanta frågor angående vilken ytterligare information som behövs från mig för att förbättra prompten). 
+3. Vi kommer att fortsätta denna iterativa process med att jag ger ytterligare information till dig och du uppdaterar prompten i den omskrivna prompten tills den är komplett.
+```
 
 
 

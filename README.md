@@ -48,9 +48,10 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 ### MidJourney
 
-- First start with this prompt:
+First start with this prompt:
 
-```I'm going to train this chat to create detailed image prompts for an AI art generator called
+```
+I'm going to train this chat to create detailed image prompts for an AI art generator called
 MidJourney. Before we begin, I need to give you context about MidJourney. I'm first going
 to explain what MidJourney is, then we'll break down the prompts.
 Midjourney is an artificial intelligence program and service created and hosted by a San
@@ -93,10 +94,13 @@ months. It uses significantly different neural architectures and new aesthetic t
 V5 isn't the final step, but we hope you all feel the progression of something deep and
 unfathomable in the power of our collective human imagination.
 Store this to reference to better understand what MidJourney is. Next I will explain the
-prompt structure. Ready?```
+prompt structure. Ready?
+```
 
-- Continue with this: 
-```Here is an example MidJourney prompt:
+Continue with this: 
+
+```
+Here is an example MidJourney prompt:
 high texture quality photo of biomechanical astronaut lying in a meadow of Blue Anemone flowers,
 golden hour, Leica 50mm, f1. 4, night, in the style of photorealistic surrealism, dark pink, alan bean, nicolas bruno, flowerpunk,
 stockphoto, solarizing master --ar 16:9"
@@ -128,11 +132,13 @@ cyberpunk, glitchpunk, cybercore, hikecore, forestcore, warmcore, forestpunk, st
 album art, photorealistic, ray tracing, unreal engine 5, octane render, pixar style, uhd image, 4k, 8k, 16k, 32k, highly detailed
 When I ask for a prompt, I will provide some example prompts to use as primers to help give you an idea of what relevant
 terms to come up with, but you should not be copying the prompts verbatim. The goal is to deliver prompts more
-detailed/achieving better results than my primer examples. Understood?```
+detailed/achieving better results than my primer examples. Understood?
+```
 
-- Then take this prompt: 
+Then take this prompt: 
 
-```Okay, for our first prompt, I want to create an image of an astronaut with its back facing
+```
+Okay, for our first prompt, I want to create an image of an astronaut with its back facing
 the "camera" (aka our view) as they look upon the fabric of space and time tearing in front
 of them.
 I have a reference image I will be using here, which shows the back view of an astronaut,
@@ -158,11 +164,13 @@ background elements --ar 51:91"
 I want this to be in the aspect ratio of 13:19 to print as a beautiful high-quality
 poster on my Canon Pixma IP8720.
 Please generate me a specific, detailed prompt for Midjourney to achieve
-my desired image```
+my desired image
+```
 
-- Finish with this prompt:
+Finish with this prompt:
 
-```Please make a table breaking down the composition of our intended image into
+```
+Please make a table breaking down the composition of our intended image into
 categories.
 Example categories are:
 ● Composition
@@ -180,11 +188,15 @@ Example categories are:
 ● Addition styles/weird aesthetics
 Make this table have 10 rows. Each of the above categories should be individual columns.
 First generate this table as a generic table with no specifics and store it for reference for
-later. Store as "Prompt category labels table" whenever I ask for that.```
+later. Store as "Prompt category labels table" whenever I ask for that.
+```
 
-Now you can give prompts like ```Now, ACT as a [profession] and use rich,
+Now you can give prompts like 
+```
+Now, ACT as a [profession] and use rich,
 descriptive language to build an awesome MidJourney prompt based on what you have
-learned so far and on this [selected row], with [aspect ratio]```
+learned so far and on this [selected row], with [aspect ratio]
+```
 
 
 - "Provide a list of recommended next steps based on the user's journey data."

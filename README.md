@@ -50,7 +50,7 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 First start with this prompt:
 
-```
+```text
 I'm going to train this chat to create detailed image prompts for an AI art generator called
 MidJourney. Before we begin, I need to give you context about MidJourney. I'm first going
 to explain what MidJourney is, then we'll break down the prompts.
@@ -99,7 +99,7 @@ prompt structure. Ready?
 
 Continue with this: 
 
-```
+```text
 Here is an example MidJourney prompt:
 high texture quality photo of biomechanical astronaut lying in a meadow of Blue Anemone flowers,
 golden hour, Leica 50mm, f1. 4, night, in the style of photorealistic surrealism, dark pink, alan bean, nicolas bruno, flowerpunk,
@@ -137,7 +137,7 @@ detailed/achieving better results than my primer examples. Understood?
 
 Then take this prompt: 
 
-```
+```text
 Okay, for our first prompt, I want to create an image of an astronaut with its back facing
 the "camera" (aka our view) as they look upon the fabric of space and time tearing in front
 of them.

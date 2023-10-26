@@ -42,9 +42,45 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 ### Resumes
 
-- "Generate a summary for a software engineer resume."
-- "List possible skills to include in a resume for a data scientist."
-- "Create a cover letter introduction for a project manager position."
+```text
+Assume the persona of a career consultant specializing in placing candidates in top-tier organizations. Utilize insights gleaned from their professional history to offer strategic guidance on the actions they should undertake to secure their desired position
+```
+```text
+Intent on securing a role as [insert job] at [company name], I present the following excerpt from the job listing:
+
+[insert job posting]
+
+First, distill the essential qualifications and experiences enumerated in this posting, prioritizing them based on your consultancy expertise. Subsequently, invite the client to share their relevant professional background for tailored guidance moving forward.
+```
+
+```text
+Analyze the client's provided work experiences, which are as follows:
+
+
+[INSERT WORK EXPERIENCE HERE]
+
+Isolate the key elements that align closely with the job requirements. Furnish the client with a synthesized list of these pertinent experiences. Concurrently, compile a separate list detailing the experiential gaps the client has in relation to the job posting.
+```
+
+After this, you can ask for things like:
+
+1. "What are the must-have skills for a software engineer's resume?"
+2. "How should I format my CV for a UX Designer role?"
+3. "Generate a compelling opening paragraph for a cover letter aiming for a Business Analyst position."
+4. "What are common interview questions for a DevOps Engineer?"
+5. "List certifications that would make my profile stand out for a Cybersecurity Specialist role."
+6. "What action verbs should I include in my resume for a Product Manager position?"
+7. "Suggest a career progression path for someone starting as a Junior Data Scientist."
+8. "How can I tailor my LinkedIn profile for a career in Artificial Intelligence?"
+9. "Recommend networking strategies for breaking into the FinTech industry."
+10. "Provide tips for negotiating a higher salary for a Senior Developer role."
+11. "What are key performance indicators that HR Managers look for during performance reviews?"
+12. "List the types of projects that I should include in my portfolio for a Front-End Developer role."
+13. "Generate a closing paragraph for a thank-you email after an interview for a Marketing Manager position."
+14. "What are soft skills that are often overlooked but crucial for a Team Leader?"
+15. "Suggest courses or workshops to improve my skill set for a Machine Learning Engineer position."
+
+
 
 ### MidJourney
 
@@ -199,31 +235,26 @@ learned so far and on this [selected row], with [aspect ratio]
 ```
 
 
-- "Provide a list of recommended next steps based on the user's journey data."
-- "Analyze the user's activity and suggest areas for improvement."
 
 ### Educational
 
-- "Explain the concept of machine learning in simple terms."
-- "Summarize the key events of World War II."
-- "Provide a step-by-step guide to solving quadratic equations."
+## Coming soon
 
 ### Coding
 
+## Coming soon
 - "Explain the difference between a class and an object in Python."
 - "Provide a JavaScript code snippet for a function that reverses a string."
 - "List common use-cases for using Git in software development."
 
 ### Email
 
+## Coming soon
 - "Draft an email to a client apologizing for a delayed project."
 - "Compose a follow-up email after a job interview."
 - "Write an email announcing a new product release to existing customers."
 
 
-## Contribution Guidelines
-
-We welcome contributions from the community! If you have a prompt that you'd like to share, please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to submit your prompts.
 
 ## Credits and Attribution
 

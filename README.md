@@ -48,6 +48,8 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 ### MidJourney
 
+- First start with this prompt:
+
 ```I'm going to train this chat to create detailed image prompts for an AI art generator called
 MidJourney. Before we begin, I need to give you context about MidJourney. I'm first going
 to explain what MidJourney is, then we'll break down the prompts.
@@ -92,6 +94,99 @@ V5 isn't the final step, but we hope you all feel the progression of something d
 unfathomable in the power of our collective human imagination.
 Store this to reference to better understand what MidJourney is. Next I will explain the
 prompt structure. Ready?```
+
+- Continue with this: 
+```Here is an example MidJourney prompt:
+high texture quality photo of biomechanical astronaut lying in a meadow of Blue Anemone flowers,
+golden hour, Leica 50mm, f1. 4, night, in the style of photorealistic surrealism, dark pink, alan bean, nicolas bruno, flowerpunk,
+stockphoto, solarizing master --ar 16:9"
+The link at the start is an image reference used to help guide composition, colors, design, etc. based on an image similar to what
+we want to create.
+Next is a more plainword description of exactly what we want to see.
+Next, we have a bunch of super specific descriptive bits, including specific cameras, location, camera angle, time of day, lenses,
+lighting, styles, artistic influences, color schemes, aesthetic themes, use cases for the image, and so on.
+Lastly the "--ar 16:9" is a parameter for aspect ratios. I won't always want a 16:9 image, but the format will be the same. So a
+portrait photo would be in "--ar 2:3" or "--ar 3:2" for example.
+Style, aesthetic, descriptive terms can all be pulled from anything you're already aware of or that I give you as examples, as long
+as they relate to the image I tell you we're trying to make and help build that image based on what we're describing.
+Examples for descriptive details include (but are not limited to):
+● Wide angle photo
+● close up photo
+● macro photograph
+● golden hour
+● night time
+● neon lights
+● cinematic lighting
+● epic scene
+● center frame
+● plain color background
+● die cut sticker
+● cute
+
+Examples of other aesthetic themes we might want to include are (but not limited to):
+cyberpunk, glitchpunk, cybercore, hikecore, forestcore, warmcore, forestpunk, stockphoto, for anime, for magazine cover, for
+album art, photorealistic, ray tracing, unreal engine 5, octane render, pixar style, uhd image, 4k, 8k, 16k, 32k, highly detailed
+When I ask for a prompt, I will provide some example prompts to use as primers to help give you an idea of what relevant
+terms to come up with, but you should not be copying the prompts verbatim. The goal is to deliver prompts more
+detailed/achieving better results than my primer examples. Understood?```
+
+- Then take this prompt: 
+
+```Okay, for our first prompt, I want to create an image of an astronaut with its back facing
+the "camera" (aka our view) as they look upon the fabric of space and time tearing in front
+of them.
+I have a reference image I will be using here, which shows the back view of an astronaut,
+with a bright glowing colorful space visual flowing out from around him. He is facing bright
+glowing light, obscuring its view from us.
+Here is a sample prompt:
+"An illustration of an astronaut's full body, floating in the vastness of the universe, full of
+stars, makoto shinkai, trending on artsation, detailed depiction of nature, psychedelic
+palette, light amber and turquoise"
+Here are four more sample prompts:
+"the image depicts an astronaut standing in space, in the style of intricate underwater
+worlds, hard edge painter, imax, calming effect, i can't believe how beautiful this is,
+adventure themed, solarizing master --ar 51:91"
+"an astronaut in space walking across a planet with open space, in the style of intricate
+underwater worlds, cyril rolando, uhd image, guillem h. pongiluppi, thiago valdi, realistic
+attention to detail, high-angle --ar 51:91"
+"space wallpaper hd art sci, digital art, wall decal, abstract art, in the style of quiet
+contemplation, 32k uhd, detailed character illustrations, atmosphere landscapes --ar
+51:91"
+"an astronaut looks over an earth, in the style of cyril rolando, dark themes,
+32k uhd, intricate underwater worlds, jakub schikaneder, thiago valdi, detailed
+background elements --ar 51:91"
+I want this to be in the aspect ratio of 13:19 to print as a beautiful high-quality
+poster on my Canon Pixma IP8720.
+Please generate me a specific, detailed prompt for Midjourney to achieve
+my desired image```
+
+- Finish with this prompt:
+
+```Please make a table breaking down the composition of our intended image into
+categories.
+Example categories are:
+● Composition
+● Camera angle
+● style
+● subject/focal point
+● what subject is doing
+● What subject is wearing/looks like (where relevant)
+● Textures
+● Detail
+● Color Palette
+● Mood
+● Time of Day/Lighting
+● Location
+● Addition styles/weird aesthetics
+Make this table have 10 rows. Each of the above categories should be individual columns.
+First generate this table as a generic table with no specifics and store it for reference for
+later. Store as "Prompt category labels table" whenever I ask for that.```
+
+Now you can give prompts like ```Now, ACT as a [profession] and use rich,
+descriptive language to build an awesome MidJourney prompt based on what you have
+learned so far and on this [selected row], with [aspect ratio]```
+
+
 - "Provide a list of recommended next steps based on the user's journey data."
 - "Analyze the user's activity and suggest areas for improvement."
 

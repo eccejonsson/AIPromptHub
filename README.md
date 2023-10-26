@@ -48,7 +48,7 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 ### MidJourney
 
-- ```I'm going to train this chat to create detailed image prompts for an AI art generator called
+```I'm going to train this chat to create detailed image prompts for an AI art generator called
 MidJourney. Before we begin, I need to give you context about MidJourney. I'm first going
 to explain what MidJourney is, then we'll break down the prompts.
 Midjourney is an artificial intelligence program and service created and hosted by a San

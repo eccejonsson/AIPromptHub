@@ -26,11 +26,11 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 
 ## Categories
 
-- [Resume prompts](#resumes)
+- [Resumes](#resumes)
 - [MidJourney](#midjourney)
-- [Educational](#education)
-- [Coding Help](#coding)
-- [Email help](#email)
+- [Educational](#educational)
+- [Coding](#coding)
+- [Email](#email)
 - [More to come...]
 
 ## Sample Prompts
@@ -40,7 +40,7 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 - **Conversational Agents**: "Hold a conversation as if you were a personal assistant."
 
 
-### Resume Prompts
+### Resumes
 
 - "Generate a summary for a software engineer resume."
 - "List possible skills to include in a resume for a data scientist."
@@ -58,13 +58,13 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 - "Summarize the key events of World War II."
 - "Provide a step-by-step guide to solving quadratic equations."
 
-### Coding Help
+### Coding
 
 - "Explain the difference between a class and an object in Python."
 - "Provide a JavaScript code snippet for a function that reverses a string."
 - "List common use-cases for using Git in software development."
 
-### Email Help
+### Email
 
 - "Draft an email to a client apologizing for a delayed project."
 - "Compose a follow-up email after a job interview."

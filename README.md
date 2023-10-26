@@ -40,7 +40,7 @@ The AI Prompt Hub was created by me Ecce, to just keep a collection of prompts t
 - **Conversational Agents**: "Hold a conversation as if you were a personal assistant."
 
 
-### Resumes
+## Resumes
 
 ```text
 Assume the persona of a career consultant specializing in placing candidates in top-tier organizations. Utilize insights gleaned from their professional history to offer strategic guidance on the actions they should undertake to secure their desired position
@@ -82,7 +82,7 @@ After this, you can ask for things like:
 
 
 
-### MidJourney
+## MidJourney
 
 First start with this prompt:
 
@@ -236,20 +236,20 @@ learned so far and on this [selected row], with [aspect ratio]
 
 
 
-### Educational
+## Educational
 
-## Coming soon
+### Coming soon
 
-### Coding
+## Coding
 
-## Coming soon
+### Coming soon
 - "Explain the difference between a class and an object in Python."
 - "Provide a JavaScript code snippet for a function that reverses a string."
 - "List common use-cases for using Git in software development."
 
-### Email
+## Email
 
-## Coming soon
+### Coming soon
 - "Draft an email to a client apologizing for a delayed project."
 - "Compose a follow-up email after a job interview."
 - "Write an email announcing a new product release to existing customers."
